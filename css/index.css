@@ -1,0 +1,380 @@
+* {box-sizing: border-box;}
+
+body { 
+
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  overflow: hidden;
+  background-color:#57b846;
+  padding: 20px 10px;
+  font-size: 30px;
+  font-weight: bold;
+  text-color:white;
+  
+}
+p{
+color:white;
+text-align: center;
+letter-spacing: 4px;
+}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+float:left;
+margin-left:412px;
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+
+  border: none;
+  outline: none;
+  color: black;
+  padding: 10px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.search-container{
+  width: 800px;
+  display: block;
+  margin: 0 auto;
+}
+
+input#search-bar{
+  margin: 0 auto;
+  width: 100%;
+  height: 50px;
+  padding: 0 20px;
+  font-size: 1rem;
+  border: 1px solid #D0CFCE;
+  border-radius: 50px;
+  outline: none;
+  box-shadow:1px 1px 3px 3px #ccc;
+  
+ }
+
+.search-icon{
+  position: relative;
+  float: right;
+  width: 70px;
+  height: 75px;
+  top: -62px;
+  right: -5px;
+}
+
+.icon{
+position: relative;
+float: left;
+width: 300px;
+  height: 320px;
+  left: 250px;
+  
+
+}
+
+.title{
+position: relative;
+  float:right;
+  font-size: 35px;
+  font-weight: bold;
+  color:black;
+  right: -60px;
+  margin-top:20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.p1{
+position: relative;
+  float:right;
+  font-size: 15px;
+  color:black;
+   right: 250px;
+}
+
+.button-one {
+position: relative;
+  float:right;
+    border: 3px solid green;
+    background: green; 
+    color: white; 
+    padding: 14px 60px;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-top:80px;
+    right:-130px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button-two {
+position: relative;
+  float:right;
+  border: 3px solid green;
+  background-color: white;
+  color: black;
+  padding: 14px 60px;
+  font-size: 15px;
+  color: green;
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin-top:80px;
+  right:-125px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.button-submit{
+position: relative;
+  float:left;
+  border: 3px solid green;
+  background-color: white;
+  color: black;
+  padding: 14px 60px;
+  font-size: 15px;
+  color: green;
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin-top:50px;
+  right:0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.button-add {
+  border: 3px solid white;
+  background-color: #f44336;
+  margin-top:-40px;
+  margin-left:670px;
+  margin-bottom:0px;
+  color: black;
+  padding: 14px 20px;
+  font-size: 15px;
+  color: white;
+  letter-spacing: 2px;
+  border-radius:15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.button-login {
+position: relative;
+  float:right;
+  border: 3px solid white;
+  background-color: white;
+  color: black;
+  padding: 14px 20px;
+  font-size: 15px;
+  color: green;
+  letter-spacing: 2px;
+  margin-top:-43px;
+  right:-90px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.button-logout {
+position: relative;
+  float:right;
+  border: 3px solid white;
+  background-color: white;
+  color: black;
+  padding: 14px 20px;
+  font-size: 15px;
+  color: green;
+  
+  letter-spacing: 2px;
+  margin-top:-43px;
+  right:-270px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+position: relative;
+  float:right;
+  font-size: 30px;
+  font-weight: bold;
+  color:black;
+  right:500px;
+  margin-top:180px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+position: relative;
+float:right;
+right:200px;
+  font-size: 30px;
+  font-weight: bold;
+  color:black;
+  margin-top:100px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+position: relative;
+text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color:black;
+  margin-top:100px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.h4{
+position: relative;
+text-align: justify;
+margin-left:50px;
+margin-right:50px;
+  font-size: 15px;
+  color:black;
+  margin-top:80px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h4{
+text-align:center;
+margin-top:80px;
+margin-bottom:8px;
+font-size:18px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.team{
+margin-left:267px;
+font-size:15px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.intake{
+margin-left:260px;
+font-size:15px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.dept{
+margin-left:260px;
+font-size:15px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.bubt{
+margin-left:290px;
+font-size:15px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.row{
+position:relative;
+margin-top:50px;
+margin-left:150px;
+margin-right:100px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.name{
+  font-size: 20px;
+  font-weight: bold;
+  color:black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.time{
+margin-top:8px;
+font-size: 12px;
+  color:black;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.question{
+margin-top:8px;
+font-size: 15px;
+  color:black;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.about{
+position:relative;
+margin-top:250px;
+font-size: 15px;
+position:relative;
+margin-left:150px;
+margin-right:100px;
+  color:black;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.like
+{
+margin-top:5px;
+width: 30px;
+height: 32px;
+}
+.comment{
+margin-top:12px;
+width: 30px;
+height: 30px;
+}
+.open{
+margin-left:12px;
+margin-top:12px;
+width: 45px;
+height: 30px;
+}
+
+textarea {
+     color: #444;
+     
+}
+.common {
+float:left;
+    width: 500px;
+    height:51px;
+    margin-top:50px;
+    border: 3px solid green;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    resize: both;
+    overflow: auto;
+}
+
+.navbar2{
+margin:right;
+
+
+}
